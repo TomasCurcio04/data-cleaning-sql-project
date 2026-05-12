@@ -5,7 +5,8 @@ Este proyecto muestra cómo limpiar un dataset de despidos (`layoffs`) en MySQL.
 ### Archivos incluidos
 - `layoffs.csv` → Dataset original.
 - `data_cleaning.sql` → Script SQL con todo el proceso de limpieza.
-
+- `EDA.sql` Análisis Exploratorio de Datos.
+  
 ### Proceso realizado
 1. Creación de tablas de staging (`layoffs_staging`, `layoffs_staging2`).
 2. Eliminación de duplicados con `ROW_NUMBER()`.
